@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới Thiệu Bản Thân</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background: #f4f4f9;
+            color: #333;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Phần header */
+        .header {
+            background: #6a11cb; /* Gradient tím */
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid #fff;
+            margin-bottom: 10px;
+        }
+
+        .header h1 {
+            font-size: 28px;
+            margin: 10px 0;
+        }
+
+        .header p {
+            font-size: 16px;
+            margin: 5px 0;
+        }
+
+        /* Phần nội dung chính */
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .content .card {
+            flex: 1 1 calc(33.33% - 20px);
+            margin: 10px;
+            border-radius: 8px;
+            padding: 20px;
+            color: white;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+            font-size: 16px;
+        }
+
+        .content .card:nth-child(1) {
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4); /* Hồng nhạt */
+        }
+
+        .content .card:nth-child(2) {
+            background: linear-gradient(135deg, #a18cd1, #fbc2eb); /* Tím nhạt */
+        }
+
+        .content .card:nth-child(3) {
+            background: linear-gradient(135deg, #84fab0, #8fd3f4); /* Xanh biển */
+        }
+
+        .content .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .content .card h2 {
+            margin-bottom: 10px;
+            font-size: 20px;
+        }
+
+        .content .card p {
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        /* Phần liên kết mạng xã hội */
+        .social-links {
+            background: #ffe259; /* Vàng */
+            text-align: center;
+            padding: 20px;
+        }
+
+        .social-links a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            font-size: 16px;
+            transition: color 0.3s ease, transform 0.3s ease;
+        }
+
+        .social-links a:hover {
+            color: #ff5722;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Phần đầu -->
+        <div class="header">/-strong/-heart:>:o:-((:-h <img src="duong_dan_anh.jpg" alt="Ảnh đại diện">
+            <h1>Nguyễn Lệ Huế</h1>
+            <p>Học sinh THPT| Yêu thích đọc tiểu thuyết| Kết bạn bốn phương</p>
+        </div>
+        <!-- Phần nội dung chính -->
+        <div class="content">
+            <div class="card">
+                <h2>Sở thích</h2>
+                <p>Thích đọc tiểu thuyết, nghe nhạc, ngủ, thích hiểu bản thân</p>
+            </div>
+            <div class="card">
+                <h2>Ưu điểm</h2>
+                <p>Biết lắng nghe tâm sự và an ủi mọi người </p>
+            </div>
+            <div class="card">
+                <h2>Nhược điểm</h2>
+                <p>Suy nghĩ nhiều</p>
+            </div>
+        </div>
+        <!-- Phần liên kết mạng xã hội -->
+        <div class="social-links">
+            <a href="https://www.facebook.com/profile.php?id=100074844517900" target="_blank">LinkedIn</a>
+            <a href="mailto: lehuethcsbp@gmail.com">Email</a>
+        </div>
+    </div>
+</body>
+</html>
